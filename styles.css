@@ -1,0 +1,57 @@
+body{
+  background-color: rgba(127, 255, 212, 0.2);
+}
+
+
+h1{
+  text-align: center;
+  color: rgb(0, 156, 218);
+}
+
+h2{
+  text-align: center;
+  color: rgb(255, 60, 0);
+  text-decoration: underline;
+}
+
+h3{
+  color: rgb(255, 100, 0) ;
+  text-align: center;
+  text-decoration: underline;
+}
+ul{
+  text-align: center;
+  list-style-type: circle;
+}
+
+li{
+  padding: 20px;
+  font-size: larger;
+  text-align: left;
+}
+
+.main{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.sub{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+img{
+  width: 500px;
+  height: 220px;
+}
+
+footer{
+  text-align: right;
+  color: gray;
+}
